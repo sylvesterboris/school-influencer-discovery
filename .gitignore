@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+data/*.db
+data/*.db-*
+.DS_Store
+# data/runs/*.json is committed on purpose: it holds the real demo run(s).
